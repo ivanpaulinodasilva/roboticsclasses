@@ -1,0 +1,35 @@
+<export xmlns="http://de.fhg.iais.roberta.blockly"><program><block_set xmlns="http://de.fhg.iais.roberta.blockly" robottype="ev3" xmlversion="2.0" description="" tags=""><instance x="113" y="17"><block type="robControls_start" id="8vDaL6mTRF|EKlZq+rrg" intask="true" deletable="false"><mutation declare="false"></mutation><field name="DEBUG">FALSE</field></block><block type="robActions_display_text" id="U[[0u~G]KhK+QPSSo;R}" intask="true"><value name="OUT"><block type="text" id="=KLoY~ZkE,[4KuzCwUHQ" intask="true"><field name="TEXT">VErde</field></block></value><value name="COL"><block type="math_number" id="t8mO/nGW|?;%;v3sH=B2" intask="true"><field name="NUM">6.5</field></block></value><value name="ROW"><block type="math_number" id="hAFHDs:3^J~dDucgE:`t" intask="true"><field name="NUM">3</field></block></value></block><block type="robActions_brickLight_on" id="+Bv#o:3V9kMHAbX7Em`8" intask="true"><field name="SWITCH_COLOR">GREEN</field><field name="SWITCH_BLINK">ON</field></block><block type="robActions_sayText" id="]]ur2nK%VMo=a{MmrCfV" intask="true"><value name="OUT"><block type="text" id="p,1^MDxP}}zeY{z?O}vk" intask="true"><field name="TEXT">verde</field></block></value></block><block type="robActions_display_clear" id="CC(p)l~5w[=@]=WQfZr9" intask="true"></block><block type="robActions_display_text" id="PY^(I1a[M4:Y:+n+Yq8X" intask="true"><value name="OUT"><block type="text" id="[DOKo=TvCZlIQ|LqCuXC" intask="true"><field name="TEXT">LaRanja</field></block></value><value name="COL"><block type="math_number" id="cH4b=m2euq1%DeGa-7zs" intask="true"><field name="NUM">6.5</field></block></value><value name="ROW"><block type="math_number" id=":6[^_2t=.B]TBintNFTF" intask="true"><field name="NUM">3</field></block></value></block><block type="robActions_brickLight_on" id="dHT0J8vY#f8Mbeh,HvFT" intask="true"><field name="SWITCH_COLOR">ORANGE</field><field name="SWITCH_BLINK">ON</field></block><block type="robActions_sayText" id="0Zpdh8]Qqq!LKxMmq8Qg" intask="true"><value name="OUT"><block type="text" id="FP|@~a!L18*kAp311X5D" intask="true"><field name="TEXT">laranja</field></block></value></block><block type="robActions_display_clear" id="8KIHN}YoFN-kY[)897*b" intask="true"></block><block type="robActions_display_text" id="JbFpw!FDI*f0jAoKY2UN" intask="true"><value name="OUT"><block type="text" id="5JcXr}y}^hqbe#:Z?9%o" intask="true"><field name="TEXT">VERmelHo</field></block></value><value name="COL"><block type="math_number" id="#nwO5X1S?IgUOWQBuQ?3" intask="true"><field name="NUM">6.5</field></block></value><value name="ROW"><block type="math_number" id="zVkC3pucbvRxNBlsMSDe" intask="true"><field name="NUM">3</field></block></value></block><block type="robActions_brickLight_on" id="{yEf!BxZ?UH%0XZ_g.[G" intask="true"><field name="SWITCH_COLOR">RED</field><field name="SWITCH_BLINK">ON</field></block><block type="robActions_sayText" id="y:8o-:;z:0N,v=2@A)uF" intask="true"><value name="OUT"><block type="text" id="%N#D8=qXAFOA~CL8^%qC" intask="true"><field name="TEXT">vermelho</field></block></value></block></instance></block_set></program><config><block_set xmlns="http://de.fhg.iais.roberta.blockly" robottype="ev3" xmlversion="" description="" tags="">
+    <instance x="213" y="213">
+        <block type="robBrick_EV3-Brick" id="1" intask="true" deletable="false">
+            <field name="WHEEL_DIAMETER">5.6</field>
+            <field name="TRACK_WIDTH">18</field>
+            <value name="S1">
+                <block type="robBrick_touch" id="2" intask="true"></block>
+            </value>
+            <value name="S2">
+                <block type="robBrick_gyro" id="3" intask="true"></block>
+            </value>
+            <value name="S3">
+                <block type="robBrick_colour" id="4" intask="true"></block>
+            </value>
+            <value name="S4">
+                <block type="robBrick_ultrasonic" id="5" intask="true"></block>
+            </value>
+            <value name="MB">
+                <block type="robBrick_motor_big" id="6" intask="true">
+                    <field name="MOTOR_REGULATION">TRUE</field>
+                    <field name="MOTOR_REVERSE">OFF</field>
+                    <field name="MOTOR_DRIVE">RIGHT</field>
+                </block>
+            </value>
+            <value name="MC">
+                <block type="robBrick_motor_big" id="7" intask="true">
+                    <field name="MOTOR_REGULATION">TRUE</field>
+                    <field name="MOTOR_REVERSE">OFF</field>
+                    <field name="MOTOR_DRIVE">LEFT</field>
+                </block>
+            </value>
+        </block>
+    </instance>
+</block_set>
+</config></export>
