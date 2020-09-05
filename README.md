@@ -4,3 +4,6 @@
 
 # Aula 10 - Super desafio.
  utilizando sensor de cor, luz e  girocospico em uma pista desenvolvida pela Robomind.
+
+# Aula 09 - Desafio
+Criar uma sequência de atividades para os alunos.
