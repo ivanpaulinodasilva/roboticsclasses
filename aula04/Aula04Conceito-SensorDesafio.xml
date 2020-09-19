@@ -1,0 +1,35 @@
+<export xmlns="http://de.fhg.iais.roberta.blockly"><program><block_set xmlns="http://de.fhg.iais.roberta.blockly" robottype="ev3" xmlversion="3.0" description="" tags=""><instance x="37" y="-601"><block type="robControls_start" id="1a4+~?zf+{jm`Yu#bvAX" intask="true" deletable="false"><mutation declare="false"></mutation><field name="DEBUG">FALSE</field></block><block type="robActions_brickLight_on" id="ny7=0_u`GhgN4}.aNEx%" intask="true"><field name="SWITCH_COLOR">GREEN</field><field name="SWITCH_BLINK">ON</field></block><block type="robActions_motorDiff_on" id="I*OHP},l|QVs=m:KV8y!" intask="true"><field name="DIRECTION">FOREWARD</field><value name="POWER"><block type="math_number" id="ssLUHo,q4haer|Sno/3@" intask="true"><field name="NUM">100</field></block></value></block><block type="robControls_wait_for" id="pA`wbny.{MD{jE8TTL[o" intask="true"><value name="WAIT0"><block type="logic_compare" id="Ro_.7[`zP.Z_hhqVP!uk" intask="true"><field name="OP">LTE</field><value name="A"><block type="robSensors_getSample" id="tQywbt/zO.6B.]AeFU3A" intask="true"><mutation input="ULTRASONIC_DISTANCE"></mutation><field name="SENSORTYPE">ULTRASONIC_DISTANCE</field><field name="SENSORPORT">4</field><field name="SLOT"></field></block></value><value name="B"><block type="math_number" id="`I%kz9#cqVVn~(|gXhpl" intask="true"><field name="NUM">110</field></block></value></block></value></block><block type="robActions_brickLight_on" id="ko`:W]DkOu_?:P.G@fS/" intask="true"><field name="SWITCH_COLOR">ORANGE</field><field name="SWITCH_BLINK">ON</field></block><block type="robActions_motorDiff_on" id="omWN?dG-TY@F?h6vtVsc" intask="true"><field name="DIRECTION">FOREWARD</field><value name="POWER"><block type="math_number" id="}eDvs+`8N@,EE#cIp]-~" intask="true"><field name="NUM">50</field></block></value></block><block type="robControls_wait_for" id="oJS-a_]?5HKr:b|E,Lm_" intask="true"><value name="WAIT0"><block type="logic_compare" id="{x:C%oxJgKC)7)0#m%)2" intask="true"><field name="OP">LTE</field><value name="A"><block type="robSensors_getSample" id="VMLxp|li1qQRQGR:J].y" intask="true"><mutation input="ULTRASONIC_DISTANCE"></mutation><field name="SENSORTYPE">ULTRASONIC_DISTANCE</field><field name="SENSORPORT">4</field><field name="SLOT"></field></block></value><value name="B"><block type="math_number" id="DJpb^TM_WY1]XJP6mzO1" intask="true"><field name="NUM">32</field></block></value></block></value></block><block type="robActions_brickLight_on" id="V07Ic^#L,f.HK4%IeiP2" intask="true"><field name="SWITCH_COLOR">RED</field><field name="SWITCH_BLINK">ON</field></block><block type="robActions_motorDiff_on" id="7AGbgxkY:-VK;j~#FD]Z" intask="true"><field name="DIRECTION">FOREWARD</field><value name="POWER"><block type="math_number" id="due2?rTru48i)T[czo_P" intask="true"><field name="NUM">25</field></block></value></block><block type="robControls_wait_for" id="KM`aO}g0NT|e,n:P!RsJ" intask="true"><value name="WAIT0"><block type="logic_compare" id="6ONJjSb1]f9|{YPbjn{Q" intask="true"><field name="OP">LTE</field><value name="A"><block type="robSensors_getSample" id="87}~M[/1Dx7Y{+H^vK%D" intask="true"><mutation input="ULTRASONIC_DISTANCE"></mutation><field name="SENSORTYPE">ULTRASONIC_DISTANCE</field><field name="SENSORPORT">4</field><field name="SLOT"></field></block></value><value name="B"><block type="math_number" id="A|#dV)ee^1ylbTgR}rk6" intask="true"><field name="NUM">5</field></block></value></block></value></block><block type="robActions_motorDiff_stop" id="KM(L[kXj}U_lF~wQuX)S" intask="true"></block></instance></block_set></program><config><block_set xmlns="http://de.fhg.iais.roberta.blockly" robottype="ev3" xmlversion="3.0" description="" tags="">
+    <instance x="213" y="213">
+        <block type="robBrick_EV3-Brick" id="1" intask="true" deletable="false">
+            <field name="WHEEL_DIAMETER">5.6</field>
+            <field name="TRACK_WIDTH">18</field>
+            <value name="S1">
+                <block type="robBrick_touch" id="2" intask="true"></block>
+            </value>
+            <value name="S2">
+                <block type="robBrick_gyro" id="3" intask="true"></block>
+            </value>
+            <value name="S3">
+                <block type="robBrick_colour" id="4" intask="true"></block>
+            </value>
+            <value name="S4">
+                <block type="robBrick_ultrasonic" id="5" intask="true"></block>
+            </value>
+            <value name="MB">
+                <block type="robBrick_motor_big" id="6" intask="true">
+                    <field name="MOTOR_REGULATION">TRUE</field>
+                    <field name="MOTOR_REVERSE">OFF</field>
+                    <field name="MOTOR_DRIVE">RIGHT</field>
+                </block>
+            </value>
+            <value name="MC">
+                <block type="robBrick_motor_big" id="7" intask="true">
+                    <field name="MOTOR_REGULATION">TRUE</field>
+                    <field name="MOTOR_REVERSE">OFF</field>
+                    <field name="MOTOR_DRIVE">LEFT</field>
+                </block>
+            </value>
+        </block>
+    </instance>
+</block_set>
+</config></export>

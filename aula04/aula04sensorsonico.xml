@@ -1,0 +1,35 @@
+<export xmlns="http://de.fhg.iais.roberta.blockly"><program><block_set xmlns="http://de.fhg.iais.roberta.blockly" robottype="ev3" xmlversion="3.0" description="" tags=""><instance x="37" y="-257"><block type="robControls_start" id="UwhN@l-:ASHKWhko_b.o" intask="true" deletable="false"><mutation declare="false"></mutation><field name="DEBUG">FALSE</field></block><block type="robActions_motorDiff_on" id="b{n07)I)AN8}VM91vE#L" intask="true"><field name="DIRECTION">FOREWARD</field><value name="POWER"><block type="math_number" id="75lv-l}*O1-+HEclI,.X" intask="true"><field name="NUM">100</field></block></value></block><block type="robControls_wait_for" id="IWd!@:){h5re=CW[mcax" intask="true"><value name="WAIT0"><block type="logic_compare" id="Mc;e*8vv%=e2B/hF/(L7" intask="true"><field name="OP">LT</field><value name="A"><block type="robSensors_getSample" id="i]qd;;9Qgi,fb]JJO-`i" intask="true"><mutation input="ULTRASONIC_DISTANCE"></mutation><field name="SENSORTYPE">ULTRASONIC_DISTANCE</field><field name="SENSORPORT">4</field><field name="SLOT"></field></block></value><value name="B"><block type="math_number" id="X9Ri#qf3|%?pjk6c.,:b" intask="true"><field name="NUM">15</field></block></value></block></value></block><block type="robActions_motorDiff_stop" id="HYDPt;Ai%X6Q|GO;4ViU" intask="true"></block><block type="robActions_motorDiff_turn_for" id="7`!%1uhK)72[Yg#q?9+7" intask="true"><field name="DIRECTION">RIGHT</field><value name="POWER"><block type="math_number" id="V_~),5hp=kIc3v{E|!`}" intask="true"><field name="NUM">30</field></block></value><value name="DEGREE"><block type="math_number" id="%8{rCTYX-`U4=9pD%5K_" intask="true"><field name="NUM">180</field></block></value></block><block type="robActions_motorDiff_on_for" id="96X2{Zq|s6G[Pow5x%G8" intask="true"><field name="DIRECTION">FOREWARD</field><value name="POWER"><block type="math_number" id="!|ZTbW~Fer]ugr.ihC)@" intask="true"><field name="NUM">30</field></block></value><value name="DISTANCE"><block type="math_number" id="HY;sT+m=nCS_A/2lj]/E" intask="true"><field name="NUM">50</field></block></value></block><block type="robActions_motorDiff_stop" id="LA7tz8K{2hK7G-aX07%-" intask="true"></block><block type="robActions_motorDiff_turn_for" id="Yyo/(*}JzD7TN6e^?bgL" intask="true"><field name="DIRECTION">LEFT</field><value name="POWER"><block type="math_number" id="I/q[(J^u}@F68+JQu_a;" intask="true"><field name="NUM">30</field></block></value><value name="DEGREE"><block type="math_number" id="+x/!bk75~^EeyWu]Lw^(" intask="true"><field name="NUM">45</field></block></value></block></instance></block_set></program><config><block_set xmlns="http://de.fhg.iais.roberta.blockly" robottype="ev3" xmlversion="3.0" description="" tags="">
+    <instance x="213" y="213">
+        <block type="robBrick_EV3-Brick" id="1" intask="true" deletable="false">
+            <field name="WHEEL_DIAMETER">5.6</field>
+            <field name="TRACK_WIDTH">18</field>
+            <value name="S1">
+                <block type="robBrick_touch" id="2" intask="true"></block>
+            </value>
+            <value name="S2">
+                <block type="robBrick_gyro" id="3" intask="true"></block>
+            </value>
+            <value name="S3">
+                <block type="robBrick_colour" id="4" intask="true"></block>
+            </value>
+            <value name="S4">
+                <block type="robBrick_ultrasonic" id="5" intask="true"></block>
+            </value>
+            <value name="MB">
+                <block type="robBrick_motor_big" id="6" intask="true">
+                    <field name="MOTOR_REGULATION">TRUE</field>
+                    <field name="MOTOR_REVERSE">OFF</field>
+                    <field name="MOTOR_DRIVE">RIGHT</field>
+                </block>
+            </value>
+            <value name="MC">
+                <block type="robBrick_motor_big" id="7" intask="true">
+                    <field name="MOTOR_REGULATION">TRUE</field>
+                    <field name="MOTOR_REVERSE">OFF</field>
+                    <field name="MOTOR_DRIVE">LEFT</field>
+                </block>
+            </value>
+        </block>
+    </instance>
+</block_set>
+</config></export>
